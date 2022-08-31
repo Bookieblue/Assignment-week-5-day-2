@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Survey Form</h1>
+            <p>Thank You For Taking Your Time To Give Us FeedBack</p>
+        </header>
+
+        <form class="form-group">
+            
+            <div class="form-input">
+                <label for="Name">Name</label><br>
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-input">
+                <label for="Email">Email</label><br>
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <div class="form-input">
+                <label for="Age">Age</label><br>
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-input">
+                <label for="choose-Role">Choose A Role That Best Describes You</label><br>
+                <select>
+                    <option>Select your Role</option>
+                    <option value="">Student</option>
+                    <option value="">full-time job</option>
+                    <option value="">Part-time job</option>
+                    <option value="">prefer to not say</option>
+                    <option value="">Others</option>
+                </select>
+            </div>
+            
+           
+         
+            <div>
+                <label for="Recommend">Would You Recommend Our Product To A Friend ?</label><br>
+                <input type="Radio" id="never" value="never"><label for="rating">Never</label><br>
+                <input type="Radio" id="maybe" value="maybe"><label for="rating">Maybe</label><br>
+                <input type="Radio" id="likely" value="likely"><label for="rating">Likely</label><br>
+                <input type="Radio" id="MostDefintely" value="mostDefinitely"><label for="rating">Most Definitely</label><br>
+            </div>
+           
+            <div>
+                <label for="Recommend">Select Things That You Liked About Our Product</label><br>
+                <input type="checkbox"><label for="rating">UI</label><br>
+                <input type="checkbox"><label for="rating">Features</label><br>
+                <input type="checkbox"><label for="rating">Services</label><br>
+                <input type="checkbox"><label for="rating">Simpleness</label><br>
+            </div>
+            
+            <div>
+                <label for="remark">Remarks</label><br>
+                <textarea name="improve" id="" cols="30" rows="10" placeholder="Tell us how we can improve..."></textarea>
+            </div>
+            <div class="form-group">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+                 
+        </form>
+    </main>
+    
+
+</body>
+</html>
